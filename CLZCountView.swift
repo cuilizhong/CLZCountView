@@ -212,11 +212,12 @@ class CLZCountView: UIView,UITextFieldDelegate {
             
             
             return false
+        } else {
+        
+            count = Int(predictionString)!
+            
+            return true
         }
-        
-        count = Int(predictionString)!
-        
-        return true
     }
     
     
